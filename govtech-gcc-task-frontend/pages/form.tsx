@@ -25,7 +25,7 @@ export default function Form() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('http://gcc-backend.mikoshi.foo/api/submit/', {
+      const response = await fetch('https://gcc-backend.mikoshi.foo/api/submit/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
