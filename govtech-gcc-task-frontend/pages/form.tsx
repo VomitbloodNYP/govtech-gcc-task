@@ -56,7 +56,9 @@ export default function Form() {
           borderRadius: 2,
           display: 'flex',
           flexDirection: 'column',
+          overflowY: 'auto',
           p: 4,
+          maxheight: '90vh',
           maxWidth: 1000,
         }}
       >
