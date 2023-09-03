@@ -20,7 +20,7 @@ export default function Data() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5001/api/retrieve')
+        const response = await fetch('https://gcc-backend.mikoshi.foo/api/retrieve')
 
         const result = await response.json()
         const data = [...result.data].sort((a, b) => {
